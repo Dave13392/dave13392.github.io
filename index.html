@@ -49,6 +49,24 @@
         a:hover {
             text-decoration: underline;
         }
+        .profile-photo {
+            display: block;
+            margin: 0 auto 20px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .experience, .education, .certifications {
+            margin-top: 15px;
+        }
+        .experience-item, .education-item, .certification-item {
+            margin-bottom: 10px;
+        }
+        .experience-title, .education-title, .certification-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
     </style>
 </head>
 <body>
@@ -57,6 +75,7 @@
         <p>Project Manager | Estimator | Electrical Contracting</p>
     </header>
     <main>
+        <img src="https://media.licdn.com/dms/image/v2/D5603AQHB055210FcyA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724761827311?e=1740614400&v=beta&t=Om-qU4hwsI6DcVx1U1CfEcQdTc5dMDRAjz5G8tqyBtI" alt="David Kassab" class="profile-photo">
         <section>
             <h2>About Me</h2>
             <p>
@@ -66,7 +85,62 @@
         </section>
         <section>
             <h2>Professional Experience</h2>
-            <p>Detailed information about my career and projects is available on my LinkedIn profile.</p>
+            <div class="experience">
+                <div class="experience-item">
+                    <div class="experience-title">Project Manager - Ferndale Electric Company</div>
+                    <div>Nov 2023 - Present | Madison Heights, MI</div>
+                    <p>High, medium, and low voltage projects across SE MI. Utility, industrial, commercial, and institutional.</p>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-title">Project Manager - Arcadis</div>
+                    <div>Aug 2020 - Nov 2023 | Southfield, MI</div>
+                    <p>Helped the world design inspiring projects.</p>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-title">Project Manager - Triangle Electric Company</div>
+                    <div>Sep 2017 - Aug 2020 | Madison Heights, MI</div>
+                    <p>Managed construction projects with a total value over $30 million.</p>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-title">Project Manager - GreenLancer</div>
+                    <div>Sep 2014 - Oct 2016 | Detroit, MI</div>
+                    <p>Helped build Detroit's then-largest venture capital-funded technology startup.</p>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-title">CAD Specialist - Peter Basso Associates</div>
+                    <div>Sep 2008 - Aug 2009 | Greater Detroit Area</div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <div class="education">
+                <div class="education-item">
+                    <div class="education-title">University of Detroit Mercy</div>
+                    <div>Master of Architecture (M.Arch)</div>
+                    <p>Specialized in Complexity Theory and Urban Planning.</p>
+                </div>
+                <div class="education-item">
+                    <div class="education-title">University of Detroit Mercy</div>
+                    <div>Bachelor of Science in Architecture</div>
+                    <p>Graduated Cum Laude with minors in Business Administration.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Licenses & Certifications</h2>
+            <div class="certifications">
+                <div class="certification-item">
+                    <div class="certification-title">Project Management Professional (PMP)</div>
+                    <div>Project Management Institute</div>
+                    <p>Issued Dec 2019 - Expires Dec 2025 | Credential ID: 2702015</p>
+                </div>
+                <div class="certification-item">
+                    <div class="certification-title">Residential Builder</div>
+                    <div>State of Michigan</div>
+                    <p>Issued Jan 2018 - Expires May 2027 | Credential ID: 2101217424</p>
+                </div>
+            </div>
         </section>
         <section>
             <h2>Connect with Me</h2>
