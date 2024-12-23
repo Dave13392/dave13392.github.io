@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Kassab - Professional Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0077b5;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2rem;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #0077b5;
+            border-bottom: 2px solid #0077b5;
+            padding-bottom: 5px;
+        }
+        a {
+            color: #0077b5;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>David Kassab</h1>
+        <p>Project Manager | Estimator | Electrical Contracting</p>
+    </header>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>
+                Experienced Project Manager and Estimator in the electrical contracting industry, based in Metro Detroit, Michigan. 
+                Passionate about engineering, design, and improving processes to deliver quality results.
+            </p>
+        </section>
+        <section>
+            <h2>Professional Experience</h2>
+            <p>Detailed information about my career and projects is available on my LinkedIn profile.</p>
+        </section>
+        <section>
+            <h2>Connect with Me</h2>
+            <p>
+                <a href="https://www.linkedin.com/in/david-kassab-detroit-mi/" target="_blank">Visit my LinkedIn Profile</a>
+            </p>
+        </section>
+    </main>
+</body>
+</html>
